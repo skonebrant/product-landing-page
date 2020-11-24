@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 header img {
@@ -107,12 +108,13 @@ i {
 
 /* VIDEO */
 
-.video {
+#howitworks {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 45px;
 }
+
 
 iframe {
     border-radius: 3px;
